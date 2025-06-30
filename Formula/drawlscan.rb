@@ -23,7 +23,6 @@ class Drawlscan < Formula
 
   def install
     bin.install "drawlscan"
-
   end
 
   test do
