@@ -1,6 +1,6 @@
 VERSION="v0.4.5"
 
-class Urleap < Formula
+class DrawlScan < Formula
   desc "URL shortener via bit.ly"
   option "without-completions", "Disable bash completions"
   depends_on "bash-completion@2" => :optional
