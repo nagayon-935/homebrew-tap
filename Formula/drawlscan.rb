@@ -18,7 +18,7 @@ class Drawlscan < Formula
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/nagayon-935/DrawlScan/releases/download/v0.5.0/DrawlScan-linux-amd64.tar.gz"
-    sha256 "sha256:f37c2d7932dc16927e8971b04fada1fcdcd3f46169d6d247f651698115f10f80"
+    sha256 "f37c2d7932dc16927e8971b04fada1fcdcd3f46169d6d247f651698115f10f80"
   end
 
   def install
