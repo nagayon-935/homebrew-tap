@@ -24,9 +24,6 @@ class Drawlscan < Formula
   def install
     bin.install "drawlscan"
 
-    bash_completion.install "completions/bash/drawlscan" if build.with? "completions"
-    zsh_completion.install  "completions/zsh/drawlscan"  if build.with? "completions"
-    fish_completion.install "completions/fish/drawlscan" if build.with? "completions"
   end
 
   test do
