@@ -9,16 +9,16 @@ class Drawlscan < Formula
   version VERSION
   license "MIT License"
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/nagayon-935/DrawlScan/releases/download/v0.4.5/DrawlScan-darwin-amd64.tar.gz"
-    sha256 "c4695ec0bef41a2b59f7e8902d9a981dc7b6af44718d69aa44618102f01cb080"
+    url "https://github.com/nagayon-935/DrawlScan/releases/download/v0.5.0/DrawlScan-darwin-amd64.tar.gz"
+    sha256 "cd55a2577d70c464ee0948f14ff5d02814dee6c062c8c9199a630cd57d05374c"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/nagayon-935/DrawlScan/releases/download/v0.4.5/DrawlScan-darwin-arm64.tar.gz"
-    sha256 "600e5dd90444c23bc223a255b9dccf8350c90afc89ba0049d92a29769921faaa"
+    url "https://github.com/nagayon-935/DrawlScan/releases/download/v0.5.0/DrawlScan-darwin-arm64.tar.gz"
+    sha256 "c5331b9fcca4b2783b0c331485342691dfe483d6ce389276394bcff035b67edc"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/nagayon-935/DrawlScan/releases/download/v0.4.5/DrawlScan-linux-amd64.tar.gz"
-    sha256 "e40fff556859454aed3c1864ac81bae64d32eaa07bffc5ed9a2c69df6b5db814"
+    url "https://github.com/nagayon-935/DrawlScan/releases/download/v0.5.0/DrawlScan-linux-amd64.tar.gz"
+    sha256 "sha256:f37c2d7932dc16927e8971b04fada1fcdcd3f46169d6d247f651698115f10f80"
   end
 
   def install
