@@ -1,6 +1,6 @@
 VERSION="v0.4.5"
 
-class DrawlScan < Formula
+class Drawlscan < Formula
   desc "URL shortener via bit.ly"
   option "without-completions", "Disable bash completions"
   depends_on "bash-completion@2" => :optional
@@ -22,7 +22,7 @@ class DrawlScan < Formula
   end
 
   def install
-    bin.install "drawlsccan"
+    bin.install "drawlscan"
 
     bash_completion.install "completions/bash/drawlscan" if build.with? "completions"
     zsh_completion.install  "completions/zsh/drawlscan"  if build.with? "completions"
